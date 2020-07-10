@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>Quiz!!</h1>
+        </header>
+
+        <p>Qual o seu nome?</p>
+        <input type="text" name="" id="nome" placeholder="Nome:">
+        <button onclick="resposta1()">OK!</button>
+        <div id="res1"></div>
+
+        <p>Quantos anos você tem?</p>
+        <input type="number" name="" id="idade" placeholder="Idade:">
+        <button onclick="resposta2()">OK!</button>
+        <div id="res2"></div>
+        
+        <p>Você gostaria de perguntar alguma coisa sobre o meu desenvolvedor?</p>
+        <p>Sim <input type="checkbox" name="" id="sim" onclick="yes()"></p>
+        <p>Não <input type="checkbox" name="" id="não" onclick="no()"></p>
+
+        <footer>
+            <p>&copy; Renan Silva</p>
+        </footer>
+
+        <script src="quiz.js"></script>
+
+    </body>
+</html>
