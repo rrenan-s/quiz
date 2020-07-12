@@ -4,6 +4,7 @@
 
         <meta charset="UTF-8">
         <title>Quiz</title>
+        <link rel="stylesheet" href="quiz.css">
 
     </head>
 
@@ -13,19 +14,27 @@
             <h1>Quiz!!</h1>
         </header>
 
-        <p>Qual o seu nome?</p>
-        <input type="text" name="" id="nome" placeholder="Nome:">
-        <button onclick="resposta1()">OK!</button>
-        <div id="res1"></div>
+        <div id="perguntas">
 
-        <p>Quantos anos você tem?</p>
-        <input type="number" name="" id="idade" placeholder="Idade:">
-        <button onclick="resposta2()">OK!</button>
-        <div id="res2"></div>
+            <p>Qual o seu nome?</p>
+            <input type="text" name="" id="nome" placeholder="Nome:">
+            <button onclick="resposta1()">OK!</button>
+            <div id="res1"></div>
+
+            <p>Quantos anos você tem?</p>
+            <input type="number" name="" id="idade" placeholder="Idade:">
+            <button onclick="resposta2()">OK!</button>
+            <div id="res2"></div>
+
+        </div>
         
-        <p>Você gostaria de perguntar alguma coisa sobre o meu desenvolvedor?</p>
-        <p>Sim <input type="checkbox" name="" id="sim" onclick="yes()"></p>
-        <p>Não <input type="checkbox" name="" id="não" onclick="no()"></p>
+        <div id="continua">
+
+            <p>Você gostaria de perguntar alguma coisa sobre o meu desenvolvedor?</p>
+            <p>Sim <input type="checkbox" name="" id="sim" onclick="yes()"></p>
+            <p>Não <input type="checkbox" name="" id="não" onclick="no()"></p>
+
+        </div>
 
         <footer>
             <p>&copy; Renan Silva</p>
