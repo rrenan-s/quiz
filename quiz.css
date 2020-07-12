@@ -1,0 +1,43 @@
+body{
+
+    font: normal 15pt Arial;
+    text-align: center;
+    background: #d6d6d6;
+    position:absolute;
+    left: 43%;
+
+}
+
+div#perguntas{
+
+    background: #5aa3e7;
+    border: 10px solid blueviolet;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+    
+    
+
+}
+
+div#continua{
+
+    background: #5aa3e7;
+    border: 10px solid darkgoldenrod;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 200px;
+
+}
+
+button{
+
+    cursor: pointer;
+
+}
+
+footer{
+
+    font-style: italic;
+    
+}
